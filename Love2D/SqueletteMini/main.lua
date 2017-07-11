@@ -10,8 +10,8 @@ if arg[#arg] == "-debug" then require("mobdebug").start() end
 
 function love.load()
   
-  largeur = love.graphics.getWidth()
-  hauteur = love.graphics.getHeight()
+  screenWidth = love.graphics.getWidth()
+  screenHeight = love.graphics.getHeight()
   
 end
 
